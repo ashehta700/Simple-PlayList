@@ -1,0 +1,80 @@
+    body {
+        background-color: antiquewhite;
+    }
+    
+    #mp-app {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 14px 16px;
+    }
+    
+    figure {
+        text-align: center;
+        color: white;
+    }
+    
+    img {
+        border: 1px solid white;
+        box-shadow: 5px 4px #c23df0;
+        border-radius: 20px;
+    }
+    
+    audio {
+        filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+        width: 500px;
+    }
+    
+    section {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .buttons {
+        display: inline-block;
+        text-align: center;
+        background-color: rgb(164, 45, 249);
+        color: whitesmoke;
+        width: 600px;
+        height: 100px;
+        border: 1px solid white;
+        box-shadow: 5px 4px #c23df0;
+        border-radius: 20px;
+    }
+    
+    #mp-audio-list {
+        display: inline-block;
+        text-align: center;
+        background-color: rgb(164, 45, 249);
+        color: whitesmoke;
+        width: 600px;
+        height: auto;
+        margin: auto;
+        border: 1px solid white;
+        box-shadow: 5px 4px #c23df0;
+        border-radius: 20px;
+    }
+    
+    #mp-audio-list li {
+        font-size: 50px;
+        border: 2px solid whitesmoke;
+        box-shadow: 4px 3px wheat;
+        border-radius: 23px;
+        width: 65%;
+        padding: auto;
+        margin: auto;
+        cursor: pointer;
+        list-style: none;
+    }
+    
+    button {
+        margin: 16px;
+        display: inline-block;
+        font-size: 40px;
+        border: 1px solid white;
+        box-shadow: 5px 4px #c23df0;
+        border-radius: 20px;
+        padding: 9px;
+    }
